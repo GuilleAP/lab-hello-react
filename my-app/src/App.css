@@ -1,0 +1,63 @@
+* {
+  padding: 5px;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fondoBody {
+  padding: 30px;
+  height: 500px;
+  background-color: #282c34;
+}
+
+.title h1 {
+  margin-bottom: 0;
+  color: white;
+  font-size: 80px;
+} 
+
+.title  p {
+  margin-top: 0;
+  color: white;
+}
+
+.title {
+  width: 50%;
+}
+
+.title button {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.title h3 {
+  color: #282c34;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 192px;
+  height: 309px;
+}
+
+.icons h2, p {
+  margin: 0;
+}
+
+.icons p {
+  color: grey;
+}
